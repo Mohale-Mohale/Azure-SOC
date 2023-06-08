@@ -11,9 +11,6 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 - SecurityIncident (Incidents created by Sentinel)
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
-## Architecture Before Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
-
 ## Architecture After Hardening / Security Controls
 ![Architecture Diagram](https://i.imgur.com/0uW8oRY.jpg)
 
