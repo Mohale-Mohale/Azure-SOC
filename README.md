@@ -36,16 +36,16 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 ## Metrics Before Hardening / Security Controls
 
 The following table shows the metrics we measured in our insecure environment for 24 hours:
-Start Time 2023-03-15 17:04:29
-Stop Time 2023-03-16 17:04:29
+Start Time 5/22/2023 21:13:56
+Stop Time  5/23/2023 21:13:56
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 19470
-| Syslog                   | 3028
-| SecurityAlert            | 10
-| SecurityIncident         | 348
-| AzureNetworkAnalytics_CL | 843
+| SecurityEvent            | 4,424
+| Syslog                   | 2,159
+| SecurityAlert            | 1
+| SecurityIncident         | 112
+| AzureNetworkAnalytics_CL | 502
 
 ## Attack Maps Before Hardening / Security Controls
 
@@ -54,12 +54,12 @@ Stop Time 2023-03-16 17:04:29
 ## Metrics After Hardening / Security Controls
 
 The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
-Start Time 2023-03-18 15:37
-Stop Time	2023-03-19 15:37
+Start Time 5/28/2023 19:06:04
+Stop Time	5/29/2023 19:06:04
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 8778
+| SecurityEvent            | 828
 | Syslog                   | 25
 | SecurityAlert            | 0
 | SecurityIncident         | 0
